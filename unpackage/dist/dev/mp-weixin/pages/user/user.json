@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "个人中心",
+  "usingComponents": {
+    "s-fab": "/components/public/s-fab"
+  }
+}

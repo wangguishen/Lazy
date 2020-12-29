@@ -1,0 +1,6 @@
+{
+  "usingComponents": {
+    "popup-layer": "/components/popup-layer/popup-layer",
+    "s-picker": "/components/public/s-picker/s-picker"
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "懒宅",
+  "usingComponents": {
+    "s-fab": "/components/public/s-fab"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "pages": [
+    "pages/home/home",
+    "pages/placard/select-card/select-card",
+    "pages/placard/placard",
+    "pages/user/user",
+    "pages/recom/recom",
+    "pages/collect/collect"
+  ],
+  "subPackages": [],
+  "window": {
+    "navigationBarBackgroundColor": "#00E5EE",
+    "navigationBarTextStyle": "white",
+    "navigationBarTitleText": "懒宅",
+    "backgroundColor": "#CDBE70",
+    "backgroundTextStyle": "light",
+    "onReachBottomDistance": 100
+  },
+  "usingComponents": {},
+  "sitemapLocation": "sitemap92.json"
+}

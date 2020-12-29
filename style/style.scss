@@ -1,0 +1,39 @@
+.flex{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.fx{
+	display: flex;
+}
+.fx-al{
+	align-items: center;
+}
+.fx-al_l{
+	align-items: flex-start;
+}
+.fx-ju{
+	justify-content: center;
+}
+.fx-ju_s{
+	justify-content: flex-start;
+}
+.fx-ju_sp{
+	justify-content: space-between;
+}
+.fx-dr{
+	flex-direction: column;
+}
+
+.lazy_hint{
+	padding: 20rpx 20rpx 10rpx;
+	font-size: 24rpx;
+	color: $lz-font-grey;
+	box-sizing: border-box;
+}
+
+.card{
+	.popup-content{
+		width: 40%;
+	}
+}

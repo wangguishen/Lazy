@@ -1,0 +1,1 @@
+<view><uni-fab vue-id="4131b684-1" pattern="{{fab.pattern}}" content="{{fab.content}}" direction="vertical" data-event-opts="{{[['^trigger',[['openFab']]],['^fabClick',[['fabClick']]]]}}" bind:trigger="__e" bind:fabClick="__e" bind:__l="__l"></uni-fab></view>

@@ -1,0 +1,53 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/home/home",
+			"style": {
+				"navigationBarTitleText": "懒宅"
+			}
+		}, {
+			"path" : "pages/placard/select-card/select-card",
+			"style" : {
+				
+			}
+		}, {
+			"path" : "pages/placard/placard",
+			"style" : {
+				"navigationBarTitleText": "制作"
+			}
+		}, {
+			"path" : "pages/user/user",
+			"style" : {
+				"navigationBarTitleText": "个人中心"
+			}
+		}, {
+			"path" : "pages/recom/recom",
+			"style" : {
+				"navigationBarTitleText": "推荐"
+			}
+		}, {
+			"path" : "pages/collect/collect",
+			"style" : {
+				"navigationBarTitleText": "特效"
+			}
+		}
+	],
+	"globalStyle": {
+		"navigationBarBackgroundColor": "#00E5EE",
+		"navigationBarTextStyle": "white",
+		"navigationBarTitleText": "懒宅",
+		"backgroundColor": "#CDBE70",
+		"backgroundTextStyle": "light",
+		"onReachBottomDistance": 100
+	},
+	"condition" : { //模式配置，仅开发期间生效
+		"current": 0, //当前激活的模式(list 的索引项)
+		"list": [
+			{
+				"name": "开发", //模式名称
+				"path": "pages/placard/select-card/select-card", //启动页面，必选
+				"query": "" //启动参数，在页面的onLoad函数里面得到
+			}
+		]
+	}
+}

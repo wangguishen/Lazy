@@ -1,0 +1,6 @@
+{
+  "component": true,
+  "usingComponents": {
+    "popup-layer": "/components/popup-layer/popup-layer"
+  }
+}
