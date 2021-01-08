@@ -39,14 +39,14 @@ export default {
 						id: 2,
 						iconPath: '/static/icon/hb_2.png',
 						selectedIconPath: '/static/icon/hb_1.png',
-						path: 'pages/placard/placard',
+						path: 'pagePlacard/src/placard/placard',
 						text: '海报',
 						active: false
 					}, {
 						id: 3,
 						iconPath: '/static/icon/collect_2.png',
 						selectedIconPath: '/static/icon/collect_1.png',
-						path: 'pages/collect/collect',
+						path: 'pageEffects/src/effects/effects',
 						text: '特效',
 						active: false
 					}, {
@@ -65,7 +65,6 @@ export default {
 		let pages = getCurrentPages();
 		let curPage = pages[pages.length - 1];
 		this.curPageRoute = curPage.route;
-		console.log('当前页面', curPage)
 		this.fab.content.forEach(item => {
 			if (item.path === this.curPageRoute) {
 				item.active = true
@@ -81,7 +80,6 @@ export default {
 	},
 	methods: {
 		openFab (e) { // 菜单点击事件
-			console.log("菜单点击事件", e, this.curPageRoute)
 			if (e.item.path !== this.curPageRoute) {
 				uni.redirectTo({
 					url: `/${e.item.path}`

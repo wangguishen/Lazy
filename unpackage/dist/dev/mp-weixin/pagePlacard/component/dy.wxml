@@ -1,0 +1,1 @@
+<view class="dy"><view class="ipt-box"><input class="ipt" type="text" data-event-opts="{{[['input',[['__set_model',['','dyUrl','$event',[]]]]]]}}" value="{{dyUrl}}" bindinput="__e"/><button data-event-opts="{{[['tap',[['changeUrl',['$event']]]]]}}" class="btn" bindtap="__e">{{btnText}}</button></view></view>

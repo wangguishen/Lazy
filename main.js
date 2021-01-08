@@ -25,7 +25,7 @@ for (const key in vFilters) {
   Vue.filter(key, vFilters[key])
 }
 
-Vue.prototype.Url = 'http://172.16.1.157:8080/' 
+Vue.prototype.Url = 'http://172.16.1.157:8080/'
 Vue.config.productionTip = false
 
 App.mpType = 'app'

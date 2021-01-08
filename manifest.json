@@ -57,12 +57,22 @@
     "quickapp" : {},
     /* 小程序特有相关 */
     "mp-weixin" : {
-        "appid" : "wx7443ae754f74b3f6",
+        "appid" : "wx7443ae754f74b3f6", // 微信小程序AppID
         "setting" : {
-            "urlCheck" : false
+            "urlCheck" : false, // 是否检查安全域名和TLS版本
+            "es6" : true, // ES6 转 ES5
+            "minified" : true // 上传代码时是否自动压缩
         },
-        "usingComponents" : true
+        "usingComponents" : true, // 是否启动自定义组件模式
+        "optimization" : {
+            // 优化配置
+            "subPackages" : true // 开启分包优化
+        },
+        "permission" : {},
+        // 接口权限相关设置
+        "plugins" : {}
     },
+    // 使用到的插件
     "mp-alipay" : {
         "usingComponents" : true
     },
@@ -74,5 +84,13 @@
     },
     "uniStatistics" : {
         "enable" : false
+    },
+    "h5" : {
+        "template" : "index.html",
+        "title" : "懒宅",
+        "router" : {
+            "mode" : "hash",
+            "base" : "/"
+        }
     }
 }

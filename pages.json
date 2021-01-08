@@ -6,16 +6,6 @@
 				"navigationBarTitleText": "懒宅"
 			}
 		}, {
-			"path" : "pages/placard/select-card/select-card",
-			"style" : {
-				
-			}
-		}, {
-			"path" : "pages/placard/placard",
-			"style" : {
-				"navigationBarTitleText": "制作"
-			}
-		}, {
 			"path" : "pages/user/user",
 			"style" : {
 				"navigationBarTitleText": "个人中心"
@@ -25,11 +15,31 @@
 			"style" : {
 				"navigationBarTitleText": "推荐"
 			}
+		}
+	],
+	"subPackages": [
+		{
+			"root": "pagePlacard", // 海报模块
+			"pages": [
+				{
+					"path": "src/placard/placard",
+					"style": {}
+				}, {
+					"path": "component/select-card",
+					"style": {}
+				}, {
+					"path": "component/dy",
+					"style": {}
+				}
+			]
 		}, {
-			"path" : "pages/collect/collect",
-			"style" : {
-				"navigationBarTitleText": "特效"
-			}
+			"root": "pageEffects", // 特效模块
+			"pages": [
+				{
+					"path": "src/effects/effects",
+					"style": {}
+				}
+			]
 		}
 	],
 	"globalStyle": {
@@ -45,7 +55,7 @@
 		"list": [
 			{
 				"name": "开发", //模式名称
-				"path": "pages/placard/select-card/select-card", //启动页面，必选
+				"path": "pages/placard/placard", //启动页面，必选
 				"query": "" //启动参数，在页面的onLoad函数里面得到
 			}
 		]

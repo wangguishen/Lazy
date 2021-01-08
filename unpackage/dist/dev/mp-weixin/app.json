@@ -1,13 +1,25 @@
 {
   "pages": [
     "pages/home/home",
-    "pages/placard/select-card/select-card",
-    "pages/placard/placard",
     "pages/user/user",
-    "pages/recom/recom",
-    "pages/collect/collect"
+    "pages/recom/recom"
   ],
-  "subPackages": [],
+  "subPackages": [
+    {
+      "root": "pagePlacard",
+      "pages": [
+        "src/placard/placard",
+        "component/select-card",
+        "component/dy"
+      ]
+    },
+    {
+      "root": "pageEffects",
+      "pages": [
+        "src/effects/effects"
+      ]
+    }
+  ],
   "window": {
     "navigationBarBackgroundColor": "#00E5EE",
     "navigationBarTextStyle": "white",
@@ -16,6 +28,7 @@
     "backgroundTextStyle": "light",
     "onReachBottomDistance": 100
   },
-  "usingComponents": {},
-  "sitemapLocation": "sitemap92.json"
+  "permission": {},
+  "plugins": {},
+  "usingComponents": {}
 }
