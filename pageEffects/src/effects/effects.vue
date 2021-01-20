@@ -38,6 +38,9 @@ export default {
 				}, {
 					name: '效果2',
 					pathName: 'effect2'
+				}, {
+					name: '效果3',
+					pathName: 'effect3'
 				}
 			]
 		}

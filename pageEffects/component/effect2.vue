@@ -1,6 +1,6 @@
 <template>
-	<view class="effect2">
-		<image src="../../static/carousel/bg1.jpg" mode=""></image>
+	<view class="effect2 ahc flex">
+		<div class="border1" :class="{'border1-active': active}"></div>
 	</view>
 </template>
 
@@ -9,17 +9,43 @@ export default {
 	name: 'effect2',
 	data () {
 		return {
-			list: [
-				{
-					title: '我的第一张卡片',
-					img: '../../static/carousel/bg1.jpg',
-					text: ''
-				}
-			]
+			active: false,
+			setInt: null
+		}
+	},
+	mounted() {
+		let self = this
+		self.destroyClear()
+		self.changeActive()
+		self.setInt = setInterval(()=>{
+			self.changeActive()
+		}, 3000)
+	},
+	beforeDestroy () {
+		this.destroyClear()
+	},
+	methods: {
+		changeActive () {
+			let self = this
+			self.active = true
+			setTimeout(() => {
+				self.active = false
+			}, 500)
+		},
+		destroyClear () {
+			let self = this
+			clearInterval(self.setInt)
+			self.setInt = null
 		}
 	}
 }
 </script>
 
-<style>
+<style lang="scss" scoped>
+.effect2 {
+	.border1 {
+		width: 50%;
+		height: 30%;
+	}
+}
 </style>
