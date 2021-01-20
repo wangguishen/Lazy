@@ -130,7 +130,7 @@ export default {
 	}
 	.finished {
 	  z-index: 4;
-	  transform: translate3d(-100vw, 100vh, 0);
+	  transform: translate3d(-205%, 200%, 0);
 	  transition: all 0.5s ease;
 	}
 	.strut{

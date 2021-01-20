@@ -37,7 +37,14 @@
 			"pages": [
 				{
 					"path": "src/effects/effects",
-					"style": {}
+					"style": {
+						"navigationBarTitleText": "特效"
+					}
+				}, {
+					"path": "src/effects/effects-details",
+					"style": {
+						"navigationBarTitleText": "详情"
+					}
 				}
 			]
 		}

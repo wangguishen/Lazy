@@ -1,8 +1,12 @@
 {
   "pages": [
     "pages/home/home",
+    "pages/placard/component/select-card",
+    "pages/placard/component/dy",
+    "pages/placard/placard",
     "pages/user/user",
-    "pages/recom/recom"
+    "pages/recom/recom",
+    "pages/collect/collect"
   ],
   "subPackages": [
     {

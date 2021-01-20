@@ -1,6 +1,6 @@
 <template>
-	<view class="">
-		22222
+	<view class="effect2">
+		<image src="../../static/carousel/bg1.jpg" mode=""></image>
 	</view>
 </template>
 
@@ -9,7 +9,13 @@ export default {
 	name: 'effect2',
 	data () {
 		return {
-			
+			list: [
+				{
+					title: '我的第一张卡片',
+					img: '../../static/carousel/bg1.jpg',
+					text: ''
+				}
+			]
 		}
 	}
 }

@@ -25,20 +25,20 @@
 /* 透明度 */
 /* 文章场景相关 */
 /* 懒宅 */
-.card.data-v-ab2127b0 {
+.card.data-v-3d4e36ec {
   width: 100%;
   min-height: 100vh;
   background: #F4F4F4;
   overflow: hidden;
 }
-.card .lazy_hint.data-v-ab2127b0 {
+.card .lazy_hint.data-v-3d4e36ec {
   padding: 10rpx;
 }
-.card .lazy_hint .card_color.data-v-ab2127b0 {
+.card .lazy_hint .card_color.data-v-3d4e36ec {
   margin: 0 5rpx;
   color: #FF3030;
 }
-.card .card_img.data-v-ab2127b0 {
+.card .card_img.data-v-3d4e36ec {
   width: calc(100% - 20rpx);
   height: 160rpx;
   margin: 10rpx;
@@ -46,7 +46,7 @@
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
 }
-.card .card_canvas.data-v-ab2127b0 {
+.card .card_canvas.data-v-3d4e36ec {
   position: fixed;
   top: 100vh;
   left: 0;
@@ -54,32 +54,32 @@
   width: 100%;
   height: 100%;
 }
-.card .card_canvas_box1.data-v-ab2127b0, .card .card_canvas_box2.data-v-ab2127b0 {
+.card .card_canvas_box1.data-v-3d4e36ec, .card .card_canvas_box2.data-v-3d4e36ec {
   width: 100%;
   min-height: 150rpx;
 }
-.card .card_canvas_box1.data-v-ab2127b0 {
+.card .card_canvas_box1.data-v-3d4e36ec {
   margin-bottom: 30rpx;
 }
-.card .card_canvas_btn.data-v-ab2127b0 {
+.card .card_canvas_btn.data-v-3d4e36ec {
   width: 80%;
   margin-top: 30rpx;
 }
-.card .select_img.data-v-ab2127b0 {
+.card .select_img.data-v-3d4e36ec {
   width: 100%;
   height: 100%;
 }
-.card .select_img_box1.data-v-ab2127b0, .card .select_img_box2.data-v-ab2127b0 {
+.card .select_img_box1.data-v-3d4e36ec, .card .select_img_box2.data-v-3d4e36ec {
   width: 100%;
 }
-.card .select_img_box1.data-v-ab2127b0 {
+.card .select_img_box1.data-v-3d4e36ec {
   margin-bottom: 30rpx;
 }
-.card .select_img_btn.data-v-ab2127b0 {
+.card .select_img_btn.data-v-3d4e36ec {
   width: 80%;
   margin-top: 30rpx;
 }
-.card .card_cover.data-v-ab2127b0 {
+.card .card_cover.data-v-3d4e36ec {
   position: fixed;
   top: 0;
   left: 0;
@@ -87,11 +87,11 @@
   height: 100%;
   background: rgba(0, 0, 0, 0.7);
 }
-.card .card_cover_img.data-v-ab2127b0 {
+.card .card_cover_img.data-v-3d4e36ec {
   width: 90%;
   height: auto;
 }
-.card .card_cover_btn.data-v-ab2127b0 {
+.card .card_cover_btn.data-v-3d4e36ec {
   width: 70%;
   margin-top: 30rpx;
 }

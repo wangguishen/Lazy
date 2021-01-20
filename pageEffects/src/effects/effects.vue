@@ -15,9 +15,6 @@
 				<text class="effect_list_grid_text">{{item.name}}</text>
 			</view>
 		</view>
-		<view class="effect_prev">
-			<component :is="isComponent" />
-		</view>
 	</view>
 </template>
 
@@ -34,10 +31,9 @@ export default {
 	},
 	data () {
 		return {
-			isComponent: 'effect1',
 			effects: [
 				{
-					name: '效果11',
+					name: '效果1',
 					pathName: 'effect1'
 				}, {
 					name: '效果2',
@@ -48,9 +44,7 @@ export default {
 	},
 	methods: {
 		selectType (item) {
-			console.log(item)
-			// let a = randomColor()
-			// console.log(a)
+			this.CW002('/pageEffects/src/effects/effects-details', item)
 		}
 	}
 }

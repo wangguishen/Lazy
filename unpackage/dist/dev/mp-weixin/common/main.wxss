@@ -218,7 +218,8 @@ page{
   padding: 20rpx 20rpx 10rpx;
   font-size: 24rpx;
   color: #CDCDC1;
-  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
 }
 .card .popup-content {
   width: 40%;

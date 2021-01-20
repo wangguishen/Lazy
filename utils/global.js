@@ -30,3 +30,12 @@ export const randomColor = (transparency = 1) => {
 // export const randomColor = () => {
 // 	return '#' + (Math.random() * 0xffffff << 0).toString(16)
 // }
+
+/**
+ * 对象解析路径参数形式
+ * params	对象  Object
+ */
+export const ObjectAnParam = (params = {}) => {
+	if (Object.keys(params).length === 0) return
+	return `?${Object.keys(params).map(key => key + '=' + params[key]).join('&')}`
+}
