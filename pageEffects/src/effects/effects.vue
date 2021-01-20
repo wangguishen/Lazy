@@ -37,7 +37,7 @@ export default {
 			isComponent: 'effect1',
 			effects: [
 				{
-					name: '效果1',
+					name: '效果11',
 					pathName: 'effect1'
 				}, {
 					name: '效果2',
