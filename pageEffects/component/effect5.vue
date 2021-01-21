@@ -1,6 +1,6 @@
 <template>
-	<view class="">
-		55555
+	<view class="effect5 ahc flex">
+		<view class="border5"></view>
 	</view>
 </template>
 
@@ -15,5 +15,11 @@ export default {
 }
 </script>
 
-<style>
+<style lang="scss" scoped>
+.effect5 {
+	.border5 {
+		width: 50%;
+		height: 30%;
+	}
+}
 </style>

@@ -1,12 +1,12 @@
 <template>
-	<view class="effect6 ahc flex">
-		66666
+	<view class="effect22 ahc flex">
+		22
 	</view>
 </template>
 
 <script>
 export default {
-	name: 'effect6',
+	name: 'effect22',
 	data () {
 		return {
 			

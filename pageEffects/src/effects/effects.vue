@@ -41,6 +41,15 @@ export default {
 				}, {
 					name: '效果3',
 					pathName: 'effect3'
+				}, {
+					name: '效果4',
+					pathName: 'effect4'
+				}, {
+					name: '效果5',
+					pathName: 'effect5'
+				}, {
+					name: '效果6',
+					pathName: 'effect6'
 				}
 			]
 		}
@@ -69,6 +78,7 @@ export default {
 			border: 1px solid $lz-border;
 			border-radius: 6rpx;
 			box-sizing: border-box;
+			overflow: hidden;
 			&_box{
 				width: 50%;
 				height: 50%;

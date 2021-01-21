@@ -1,6 +1,6 @@
 <template>
 	<view class="effect2 ahc flex">
-		<div class="border1" :class="{'border1-active': active}"></div>
+		<div class="border2" :class="{'border2-active': active}"></div>
 	</view>
 </template>
 
@@ -43,7 +43,7 @@ export default {
 
 <style lang="scss" scoped>
 .effect2 {
-	.border1 {
+	.border2 {
 		width: 50%;
 		height: 30%;
 	}
