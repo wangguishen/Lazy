@@ -1,6 +1,8 @@
 <template>
 	<view class="effect8 ahc flex">
-		88888
+		<view class="border8 flex">
+			按钮
+		</view>
 	</view>
 </template>
 
@@ -15,5 +17,12 @@ export default {
 }
 </script>
 
-<style>
+<style lang="scss" scoped>
+.effect8 {
+	.border8 {
+		width: 50%;
+		height: 30%;
+		font-size: 14px;
+	}
+}
 </style>

@@ -1,6 +1,8 @@
 <template>
 	<view class="effect9 ahc flex">
-		99999
+		<view class="border9 flex">
+			按钮
+		</view>
 	</view>
 </template>
 
@@ -15,5 +17,12 @@ export default {
 }
 </script>
 
-<style>
+<style lang="scss" scoped>
+.effect9 {
+	.border9 {
+		width: 50%;
+		height: 30%;
+		font-size: 14px;
+	}
+}
 </style>

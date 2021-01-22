@@ -1,6 +1,6 @@
 <template>
 	<view class="effect6 ahc flex">
-		66666
+		<view class="border6"></view>
 	</view>
 </template>
 
@@ -15,5 +15,11 @@ export default {
 }
 </script>
 
-<style>
+<style lang="scss" scoped>
+.effect6 {
+	.border6 {
+		width: 50%;
+		height: 30%;
+	}
+}
 </style>

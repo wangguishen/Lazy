@@ -1,6 +1,6 @@
 <template>
 	<view class="effect7 ahc flex">
-		7777
+		<view class="border7"></view>
 	</view>
 </template>
 
@@ -15,5 +15,11 @@ export default {
 }
 </script>
 
-<style>
+<style lang="scss" scoped>
+.effect7 {
+	.border7 {
+		width: 50%;
+		height: 30%;
+	}
+}
 </style>
