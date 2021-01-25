@@ -1,6 +1,8 @@
 <template>
 	<view class="effect11 ahc flex">
-		11
+		<view class="border11 flex">
+			11
+		</view>
 	</view>
 </template>
 
@@ -15,5 +17,12 @@ export default {
 }
 </script>
 
-<style>
+<style lang="scss" scoped>
+.effect11 {
+	.border11 {
+		width: 50%;
+		height: 30%;
+		font-size: 14px;
+	}
+}
 </style>

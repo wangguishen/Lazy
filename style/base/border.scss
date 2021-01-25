@@ -296,3 +296,62 @@
 	}
 }
 
+/**
+ * 边框渐变 -- pageEffects/component/effect10
+ */
+.border10 {
+	position: relative;
+	overflow: hidden;
+	&::after {
+		content: '按钮';
+		position: absolute;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		top: 4px;
+		bottom: 4px;
+		left: 4px;
+		right: 4px;
+		background: #FFF;
+		border: 2px solid #9acd32;
+		font-size: 12px;
+	}
+	&::before {
+		content: '';
+		position: absolute;
+		top: 0;
+		bottom: 0;
+		left: 0;
+		right: -20px;
+		background: #fff;
+		transform: rotate(-90deg) translate(-100%, -100%);
+		transform-origin: top left;
+		transition: transform .3s;
+		transition-timing-function: linear;
+	}
+}
+.border10-active {
+	filter: contrast(1.2);
+	&::before {
+		transform: rotateZ(0deg) translate(0%, -0%);
+	}
+}
+
+/**
+ * 边框背景1 -- pageEffects/component/effect11
+ */
+.border11 {
+	position: relative;
+	border: 21px solid;
+	border-image: url(../static/bg.png) 21 round;
+}
+
+/**
+ * 边框背景2 -- pageEffects/component/effect12
+ */
+.border12 {
+	position: relative;
+	border: 24px solid;
+	border-image: url(../static/bg.svg) 32 round;
+}
+
