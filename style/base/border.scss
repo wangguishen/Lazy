@@ -355,3 +355,21 @@
 	border-image: url(../static/bg.svg) 32 round;
 }
 
+/**
+ * 边框渐变 -- pageEffects/component/effect13
+ */
+.border13 {
+	border: 5px solid;
+	border-image: linear-gradient(45deg, gold, deeppink) 1;
+	clip-path: inset(0px round 5px);
+	animation: border13hue 6s infinite linear;
+	filter: hue-rotate(360deg);
+}
+@keyframes border13hue {
+	0% {
+		filter: hue-rotate(0deg);
+	}
+	100% {
+		filter: hue-rotate(360deg);
+	}
+}

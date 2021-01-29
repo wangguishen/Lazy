@@ -68,6 +68,12 @@ export default {
 				}, {
 					name: '效果12',
 					pathName: 'effect12'
+				}, {
+					name: '效果13',
+					pathName: 'effect13'
+				}, {
+					name: '效果14',
+					pathName: 'effect14'
 				}
 			]
 		}
